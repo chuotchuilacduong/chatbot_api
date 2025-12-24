@@ -1,0 +1,170 @@
+PHẦN 1: QUẢN LÝ HỆ THỐNG VÀ TÀI KHOẢN
+1.1. Tài khoản người dùng
+Đăng nhập & Đăng xuất: Người dùng truy cập hệ thống bằng tài khoản được cấp. Sau khi hoàn thành công việc, cần thực hiện đăng xuất để bảo mật.
+
+Quản lý thông tin: Người dùng có thể tự đổi mật khẩu và cập nhật thông tin cá nhân.
+
+Quản trị người dùng:
+
+Hệ thống cho phép tạo mới, xem danh sách và tìm kiếm người dùng.
+
+Tính năng Khóa/Mở khóa tài khoản được sử dụng khi nhân sự nghỉ việc hoặc có dấu hiệu vi phạm bảo mật.
+
+1.2. Phân quyền và Phân công
+Phân quyền theo vai trò: Hệ thống chia thành 3 vai trò chính:
+
+Tổ trưởng: Quyền cao nhất, quản lý toàn bộ.
+
+Tổ phó: Quyền hạn chế hơn, hỗ trợ tổ trưởng.
+
+Cán bộ: Thực hiện các nghiệp vụ cụ thể.
+
+Phân công nghiệp vụ: Cán bộ sẽ được phân công phụ trách các mảng riêng biệt bao gồm:
+
+Quản lý hộ khẩu.
+
+Quản lý nhân khẩu.
+
+Quản lý tạm trú - tạm vắng.
+
+Xử lý kiến nghị.
+
+Thực hiện thống kê.
+
+PHẦN 2: QUẢN LÝ HỘ KHẨU (SỔ HỘ KHẨU)
+2.1. Thao tác với Sổ hộ khẩu
+Thêm mới: Tạo sổ hộ khẩu mới cho các hộ gia đình chuyển đến hoặc thành lập mới.
+
+Cập nhật: Cho phép sửa đổi địa chỉ và thông tin chung của hộ.
+
+Xóa/Đóng sổ: Ngừng quản lý sổ hộ khẩu (ví dụ: cả hộ chuyển đi nơi khác).
+
+Tra cứu: Tìm kiếm sổ hộ khẩu dựa trên: Số sổ hộ khẩu, Tên chủ hộ, Địa chỉ hoặc Từ khóa bất kỳ.
+
+2.2. Nghiệp vụ Biến động Hộ khẩu
+Thay đổi chủ hộ: Thực hiện khi chủ hộ cũ qua đời hoặc chuyển quyền chủ hộ cho thành viên khác. Hệ thống sẽ ghi nhận đây là một biến động.
+
+Tách hộ: Quy trình tạo một sổ hộ khẩu mới từ sổ cũ.
+
+Cách thực hiện: Chọn các nhân khẩu từ sổ cũ -> Chuyển sang sổ mới -> Xác định chủ hộ mới.
+
+Ghi nhận thay đổi: Mọi thay đổi liên quan đến cả hộ (đính chính thông tin, thay đổi địa giới hành chính...) đều phải ghi lại nội dung, ngày thay đổi và ghi chú.
+
+PHẦN 3: QUẢN LÝ NHÂN KHẨU
+3.1. Thêm nhân khẩu
+Trường hợp Mới sinh: Khi thêm nhân khẩu là trẻ sơ sinh:
+
+Nghề nghiệp/CCCD: Để trống (hệ thống tự động bỏ qua).
+
+Nơi chuyển đến: Chọn giá trị "Mới sinh".
+
+Trường hợp Nhập hộ: Nhập nhân khẩu từ nơi khác đến vào hộ, yêu cầu khai báo đầy đủ thông tin cá nhân và giấy tờ tùy thân.
+
+3.2. Cập nhật và Quản lý trạng thái
+Cập nhật thông tin: Sửa đổi họ tên, số giấy tờ, nghề nghiệp, quan hệ với chủ hộ.
+
+Chuyển đi: Ghi nhận nhân khẩu rời khỏi địa bàn. Cần nhập: Ngày chuyển, Nơi chuyển đến, Ghi chú.
+
+Qua đời: Đánh dấu nhân khẩu đã mất. Cần nhập: Ngày mất, Ghi chú là "Đã qua đời".
+
+Tra cứu: Tìm nhanh nhân khẩu theo Họ tên, CCCD/CMND, Số hộ khẩu hoặc Địa chỉ.
+
+PHẦN 4: LỊCH SỬ VÀ BIẾN ĐỘNG
+4.1. Theo dõi lịch sử
+Lịch sử Hộ khẩu: Xem lại toàn bộ quá trình thêm/sửa/xóa thành viên, đổi chủ hộ, tách hộ của một gia đình cụ thể.
+
+Lịch sử Nhân khẩu: Xem quá trình thay đổi thông tin cá nhân, lịch sử chuyển đi hoặc tình trạng khai tử của một cá nhân.
+
+4.2. Nhật ký hệ thống (Audit Log)
+Hệ thống tự động lưu lại dấu vết thao tác để kiểm tra khi cần thiết:
+
+Ai là người thực hiện?
+
+Thực hiện vào thời gian nào?
+
+Nội dung thao tác là gì?
+
+PHẦN 5: QUẢN LÝ TẠM TRÚ & TẠM VẮNG
+5.1. Quản lý Tạm vắng (Người địa phương đi nơi khác)
+Cấp giấy: Ghi nhận người dân đi vắng có thời hạn.
+
+Gia hạn: Kéo dài thời gian tạm vắng khi giấy cũ hết hạn.
+
+Kết thúc: Đóng giấy tạm vắng khi người dân trở về địa phương.
+
+Tra cứu: Lọc danh sách theo thời gian, trạng thái (còn hạn/hết hạn) hoặc theo tên nhân khẩu.
+
+5.2. Quản lý Tạm trú (Người nơi khác đến địa phương)
+Cấp giấy: Đăng ký cho người từ nơi khác đến cư trú có thời hạn.
+
+Gia hạn & Kết thúc: Tương tự quy trình tạm vắng.
+
+In ấn: Hệ thống hỗ trợ xuất và in giấy tạm trú/tạm vắng theo mẫu quy định.
+
+PHẦN 6: PHẢN ÁNH & KIẾN NGHỊ CỦA NHÂN DÂN
+6.1. Quy trình xử lý
+Ghi nhận: Nhập thông tin người phản ánh, nội dung, ngày tháng và phân loại kiến nghị. Trạng thái ban đầu là "Mới ghi nhận".
+
+Cập nhật xử lý: Chuyển trạng thái sang "Chưa giải quyết" hoặc "Đã giải quyết". Cập nhật nội dung nếu có sai sót.
+
+Phản hồi từ cơ quan: Ghi nhận nội dung trả lời từ cơ quan chức năng, ngày phản hồi và đơn vị xử lý.
+
+Thông báo: Gửi thông báo kết quả cho người dân (nếu hệ thống tích hợp module thông báo).
+
+6.2. Tính năng Gộp kiến nghị
+Trong trường hợp nhiều người dân cùng phản ánh một vấn đề (trùng nội dung):
+
+Hệ thống cho phép Gộp kiến nghị.
+
+Kết quả: Giữ lại một kiến nghị chính, nhưng lưu danh sách tất cả những người đã phản ánh và đếm số lần phản ánh để đánh giá mức độ nghiêm trọng.
+
+PHẦN 7: BÁO CÁO & THỐNG KÊ (DÀNH CHO TỔ TRƯỞNG)
+7.1. Các loại báo cáo định kỳ
+Theo Giới tính: Tỷ lệ Nam / Nữ / Khác.
+
+Theo Nhóm tuổi: Hệ thống phân chia tự động vào các nhóm:
+
+Mầm non
+
+Mẫu giáo
+
+Cấp 1, Cấp 2, Cấp 3
+
+Độ tuổi lao động
+
+Nghỉ hưu
+
+Theo Biến động: Thống kê số lượng Mới sinh, Chuyển đi, Qua đời trong khoảng thời gian tùy chọn.
+
+Theo Cư trú: Số lượng Tạm trú/Tạm vắng (phân loại: Cấp mới, Đang hiệu lực, Đã hết hạn).
+
+Theo Kiến nghị: Tổng hợp tình hình giải quyết kiến nghị theo Quý (dựa trên trạng thái).
+
+7.2. Xuất dữ liệu
+Hỗ trợ xuất các báo cáo trên ra định dạng PDF hoặc Excel để lưu trữ và báo cáo lên cấp trên.
+
+PHẦN 8: TIỆN ÍCH TRA CỨU NHANH (TỔ TRƯỞNG/TỔ PHÓ)
+8.1. Công cụ tìm kiếm
+Tra cứu nhanh thông tin công dân qua số CCCD/CMND.
+
+Tra cứu nhanh hộ gia đình qua Số sổ hộ khẩu.
+
+Tra cứu theo địa giới hành chính: Đường, Phường, Quận.
+
+8.2. Bộ lọc dữ liệu
+Lọc cư trú: Đang cư trú vs Đã chuyển đi vs Đã qua đời.
+
+Lọc hạn giấy tờ: Tạm trú/Tạm vắng còn hạn vs Hết hạn.
+
+Lọc kiến nghị: Xem theo trạng thái xử lý.
+
+GỢI Ý MẪU CÂU HỎI - ĐÁP (Q&A) CHO CHATBOT (Dùng để fine-tune hoặc few-shot learning)
+Q: Làm thế nào để tách hộ khẩu cho con ra ở riêng? A: Để tách hộ, bạn vào chức năng "Quản lý hộ khẩu", chọn sổ hộ khẩu gốc, sau đó chọn chức năng "Tách hộ". Bạn cần chọn nhân khẩu muốn chuyển đi (người con), tạo sổ mới và xác định người đó làm chủ hộ mới.
+
+Q: Nhập thông tin cho trẻ mới sinh cần điền nghề nghiệp không? A: Không cần. Trong chức năng "Thêm nhân khẩu", nếu bạn chọn trường hợp "Mới sinh", hệ thống sẽ tự động cho phép bỏ trống trường nghề nghiệp và CCCD.
+
+Q: Tôi muốn xem danh sách những người sắp hết hạn tạm trú? A: Bạn hãy truy cập mục "Tiện ích tra cứu nhanh" hoặc "Quản lý Tạm trú", sử dụng bộ lọc trạng thái "Sắp hết hạn" hoặc lọc theo ngày tháng để xem danh sách này.
+
+Q: Nếu có 10 người cùng phản ánh về việc mất nước sạch thì nhập liệu thế nào? A: Bạn không cần tạo 10 hồ sơ rời rạc. Hãy sử dụng tính năng "Gộp kiến nghị". Bạn ghi nhận nội dung phản ánh, sau đó thêm tên của 10 người dân vào danh sách người phản ánh trong cùng một hồ sơ kiến nghị đó.
+
+Q: Tổ trưởng xem được báo cáo gì? A: Tổ trưởng có quyền xem đầy đủ các báo cáo thống kê: phân loại nhân khẩu theo giới tính, nhóm tuổi (từ mầm non đến nghỉ hưu), thống kê biến động (sinh/tử/chuyển đi), tình hình tạm trú tạm vắng và trạng thái xử lý kiến nghị theo quý.

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-ollama
+langchain-chroma
+chromadb
+torch
+sentence-transformers
